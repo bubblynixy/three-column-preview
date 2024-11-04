@@ -1,0 +1,88 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: BSD;
+    src: url(../fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:LD ;
+    src: url(../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+}
+body{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: "LD";
+    font-family: 400;
+}
+.container{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+}
+.body{
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    width: 250px;
+    line-height: 1.5em;
+    align-items: self-start;
+}
+.darkcyan{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    align-items: self-start;
+    width: 250px;
+    line-height: 1.5em;
+}
+.verydarkcyan{
+    background-color: hsl(179, 100%, 13%);
+    padding:40px;
+    width: fit-content;
+    width: 250px;
+    line-height: 1.5em;
+}
+#heading{
+    color: hsl(0, 0%, 95%);
+    font-family: "BSD";
+    font-weight: 700;
+    font-size: 30px;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 15px;
+    border-radius:20px;
+    border: none;
+}
+#orangebutton{
+    color: hsl(31, 77%, 52%);
+}
+#orangebutton:active, #orangebutton:focus{
+    border: 3px solid hsl(0, 0%, 95%);
+    background-color:  hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+#darkcyanbutton{
+    color: hsl(184, 100%, 22%);
+}
+#darkcyanbutton:active, #darkcyanbutton:focus{
+    border: 3px solid hsl(0, 0%, 95%);
+    background-color:  hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+#verydarkcyanbutton{
+    color: hsl(179, 100%, 13%);
+}
+#verydarkcyanbutton:active, #verydarkcyanbutton:focus{
+    border: 3px solid hsl(0, 0%, 95%);
+    background-color:  hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
